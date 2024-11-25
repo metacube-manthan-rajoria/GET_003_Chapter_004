@@ -43,6 +43,10 @@ a:hover {
   text-decoration: underline;
 }
 
+footer {
+  background-color: #2b3035;
+}
+
 /* Header */
 #header_top {
   display: grid;
