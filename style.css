@@ -1,12 +1,13 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* * {
   border: 2px solid black;
 } */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -14,5 +15,22 @@ body {
   font-style: normal;
 
   --website-background-light: #ffffff;
-  --text-color-1: white;
+  --website-background-dark: #212529;
+  --text-color-light: black;
+  --text-color-dark: white;
+}
+
+body {
+  background-color: var(--website-background-dark);
+  color: var(--text-color-dark);
+}
+
+i {
+  color: var(--text-color-dark);
+}
+
+/* Header */
+#header_top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
