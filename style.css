@@ -29,7 +29,7 @@ i {
   color: var(--text-color-dark);
 }
 
-ul {
+header ul {
   list-style: none;
   padding: 0;
 }
