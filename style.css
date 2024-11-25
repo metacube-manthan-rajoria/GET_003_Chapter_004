@@ -53,3 +53,7 @@ a:hover {
 #main_article {
   background-color: #343a40;
 }
+
+#secondary_articles > div > div{
+  background-color: var(--website-background-dark);
+}
