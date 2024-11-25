@@ -29,8 +29,27 @@ i {
   color: var(--text-color-dark);
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: var(--text-color-dark);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--text-color-dark);
+  text-decoration: underline;
+}
+
 /* Header */
 #header_top {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+/* Section 1 */
+#main_article {
+  background-color: #343a40;
 }
