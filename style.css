@@ -30,16 +30,21 @@ i {
   color: var(--text-color-dark);
 }
 
+a {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+
 header ul {
   list-style: none;
   padding: 0;
 }
 
-a {
+header a {
   color: var(--text-color-dark);
   text-decoration: none;
 }
-a:hover {
+header a:hover {
   color: var(--text-color-dark);
   text-decoration: underline;
 }
@@ -65,6 +70,16 @@ footer {
 
 .about {
   background-color: var(--website-background-grey);
+}
+
+#archives > ul a{
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+
+#elsewhere > ul a{
+  color: cornflowerblue;
+  text-decoration: underline;
 }
 
 footer {
