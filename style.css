@@ -18,6 +18,7 @@ body {
   --website-background-dark: #212529;
   --text-color-light: black;
   --text-color-dark: white;
+  --website-background-grey: #2b3035;
 }
 
 body {
@@ -44,7 +45,7 @@ a:hover {
 }
 
 footer {
-  background-color: #2b3035;
+  background-color: var(--website-background-grey);
 }
 
 /* Header */
@@ -60,4 +61,12 @@ footer {
 
 #secondary_articles > div > div{
   background-color: var(--website-background-dark);
+}
+
+.about {
+  background-color: var(--website-background-grey);
+}
+
+footer {
+  background-color: var(--website-background-grey);
 }
