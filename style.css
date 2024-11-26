@@ -80,3 +80,9 @@ header a:hover {
 footer {
   background-color: var(--website-background-grey);
 }
+
+@media screen and (min-width: 990px) {
+  #secondary_articles > .card img {
+    display: none;
+  }
+}
