@@ -52,10 +52,6 @@ header a:hover {
   grid-template-columns: repeat(3, 1fr);
 }
 
-nav > ul {
-  overflow: hidden;
-}
-
 /* Articles */
 #main_article {
   background-color: #343a40;
